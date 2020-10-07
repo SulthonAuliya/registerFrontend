@@ -1,0 +1,67 @@
+/* general */
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: 10px rgb(121, 188, 247);
+}
+html, body {
+    overflow-x: hidden;
+  }
+/* navbar */
+.navbar{
+    height: 9vh;
+}
+.bg-nav{
+    background-color: rgb(121, 188, 247) !important;
+}
+.img-brand{
+    width: 80px;
+}
+.btn-login{
+    border: 10px rgb(121, 188, 247) !important;
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+.btn-login:hover{
+    opacity: .5;
+}
+
+/* end of navbar */
+
+/* register page */
+
+.card{
+    margin-top: 4vh;
+    min-height: 70vh;
+    padding: 2vw;
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 10px rgba(128, 128, 128, 0.61));
+}
+
+.card-titile h1{
+    color: #777;
+}
+
+.card .btn-regis{
+    width: 100%;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: rgb(121, 188, 247);
+    color: #fff;
+}
+
+.card .form-group{
+    margin-top: 15px;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 10vh;
+    height: 10vh;
+    padding-top: 3vh;
+    background-color: rgb(121, 188, 247);
+    color: #fff;
+}

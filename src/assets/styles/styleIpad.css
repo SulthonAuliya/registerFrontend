@@ -1,0 +1,12 @@
+@media (max-width: 991px){
+
+    /* navbar */
+    .navbar{
+        height: auto;
+        
+    }
+    .navbar a{
+        font-size: 3vw;
+    }
+
+}
